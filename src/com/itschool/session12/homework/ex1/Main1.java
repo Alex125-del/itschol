@@ -30,6 +30,10 @@ public class Main1 {
         math.professor = matchProfessor;
         math.students = new ArrayList<>();
         math.students.add(student1);
+        math.duration = "2 Hours";
+        math.description = "Match level 2 ";
+        math.schedule = "MONDAY AND WEDNESDAY FROM 10 AM TO 12 PM !";
+
 
         Student student2 = new Student();
         student2.firstName = "Clarc";
@@ -55,6 +59,9 @@ public class Main1 {
         biology.professor = biologyProfessor;
         biology.students = new ArrayList<>();
         biology.students.add(student2);
+        biology.schedule = "Tuesday and Thursday from 10 AM to 12 PM !";
+        biology.description = "Internal biology !";
+        biology.duration = "3 Hours";
 
         List<Curs> cursuri = new ArrayList<>();
         cursuri.add(math);
